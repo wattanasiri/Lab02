@@ -1,0 +1,22 @@
+.jumbotron{
+    background-color: #484d53;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.img-fluid{
+    filter: brightness(0.7) grayscale(100);
+    transition: 0.2s ease-in-out;    
+    border-radius: 4%;
+}
+.img-fluid:hover{
+    filter: brightness(1);
+    transform: scale(1.06);
+    transition: 0.2s ease-in-out;
+}
+.col-lg-4{
+    margin-bottom: 5%;
+}
+body{
+    background-color: #d8d8d8;
+}
